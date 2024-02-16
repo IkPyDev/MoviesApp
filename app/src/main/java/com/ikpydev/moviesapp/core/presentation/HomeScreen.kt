@@ -40,6 +40,10 @@ import com.ikpydev.moviesapp.movielist.presention.MovieListUiEvent
 import com.ikpydev.moviesapp.movielist.presention.MovieListViewModel
 import com.ikpydev.moviesapp.movielist.util.Screen
 
+/**
+ * @author Asliddin Qarshiyev yordamida
+ */
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun HomeScreen(navController: NavController) {
@@ -65,7 +69,7 @@ fun HomeScreen(navController: NavController) {
                     else stringResource(
                         R.string.upcoming_movies
                     ),
-                    fontSize = 2.sp
+                    fontSize = 20.sp
                 )
             },
                 modifier = Modifier.shadow(2.dp),

@@ -1,8 +1,10 @@
 package com.ikpydev.moviesapp.movielist.data.local.movie
 
+import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 
+@Entity(tableName = "MovieEntity")
 data class MovieEntity (
     @PrimaryKey
     val id: Int,
